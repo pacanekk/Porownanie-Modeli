@@ -12,8 +12,7 @@ Napisz w Pythonie prosty program, który pobiera dwie liczby, oblicza ich sumę 
 
 Oto prosty program w Pythonie, który pobiera dwie liczby od użytkownika, oblicza ich sumę i wyświetla wynik. Wszystkie komentarze są po polsku.
 
-python
-```
+```python
 # Pobranie pierwszej liczby od użytkownika
 liczba1 = float(input("Podaj pierwszą liczbę: "))
 
@@ -122,13 +121,192 @@ Opisz bohaterów lektury „Kamienie na szaniec” Aleksandra Kamińskiego. Poda
 
 **ChatGPT:**
 
-[Tutaj wklej odpowiedź]
+# „Kamienie na szaniec” – bohaterowie, cechy charakteru i motywy literackie
+
+„Kamienie na szaniec” to książka Aleksandra Kamińskiego opowiadająca o losach młodych Polaków podczas II wojny światowej. Bohaterowie, związani z harcerstwem i Szarymi Szeregami, walczą z niemieckim okupantem, ryzykując własne życie w imię wolności ojczyzny.
+
+Głównymi bohaterami są Alek, Rudy i Zośka. Ich postawy pokazują odwagę, przyjaźń, patriotyzm i gotowość do poświęceń.
+
+Kamienie na szaniec - Aleksander Kamiński - jak nowa | SkupSzop
+
+## 1. Główni bohaterowie
+
+### Alek – Maciej Aleksy Dawidowski
+
+76 lat temu Maciej Aleksy Dawidowski Alek z Szarych Szeregów usunął z pomnika Mikołaja Kopernika w Warszawie tablicę ...
+
+Cechy charakteru:
+
+- Odważny i brawurowy.
+- Wesoły, pogodny i pełen energii.
+- Pomysłowy i zaradny.
+- Patriotyczny i lojalny wobec przyjaciół.
+- Gotowy do poświęceń.
+
+Przykładowe wydarzenia:
+
+- Zdjęcie niemieckiej tablicy z pomnika Mikołaja Kopernika w Warszawie.
+- Udział w akcjach Małego Sabotażu, m.in. w malowaniu znaków Polski Walczącej.
+- Udział w akcji pod Arsenałem, podczas której został ciężko ranny. Zmarł 30 marca 1943 roku.
+
+### Rudy – Jan Bytnar
+
+Akcja pod Arsenałem – 80. rocznica - Rocznice | dzieje.pl - Historia Polski
+
+Cechy charakteru:
+
+- Inteligentny i uzdolniony.
+- Pracowity, dokładny i systematyczny.
+- Skromny i wrażliwy.
+- Odważny i wytrwały.
+- Wierny swoim ideałom i przyjaciołom.
+
+Przykładowe wydarzenia:
+
+- Udział w akcjach Małego Sabotażu, m.in. w malowaniu symboli Polski Walczącej.
+- Aresztowanie przez Gestapo 23 marca 1943 roku i brutalne przesłuchania, podczas których nie wydał swoich towarzyszy.
+- Uwolnienie podczas akcji pod Arsenałem 26 marca 1943 roku. Zmarł 30 marca wskutek odniesionych obrażeń.
+
+### Zośka – Tadeusz Zawadzki
+
+80 lat temu w akcji pod Sieczychami poległ Tadeusz Zawadzki "Zośka"
+
+Cechy charakteru:
+
+- Inteligentny i ambitny.
+- Odpowiedzialny i zdyscyplinowany.
+- Opanowany i rozsądny.
+- Wrażliwy i refleksyjny.
+- Przywódczy, wierny przyjaciołom i patriotyczny.
+
+Przykładowe wydarzenia:
+
+- Kierowanie działaniami konspiracyjnymi i udział w akcjach przeciw okupantowi.
+- Dowodzenie akcją pod Arsenałem, której celem było odbicie Rudego i innych więźniów.
+- Udział w akcji pod Celestynowem, polegającej na uwolnieniu więźniów przewożonych pociągiem.
+- Śmierć 20 sierpnia 1943 roku podczas akcji w Sieczychach.
+
+## 2. Inni ważni bohaterowie
+
+- Stanisław Broniewski „Orsza” – instruktor harcerski i dowódca akcji pod Arsenałem. Odpowiedzialny, odważny, opanowany i dobrze zorganizowany.
+- Henryk Ostrowski „Heniek” – harcerz i przyjaciel bohaterów, aresztowany przez Gestapo. Jego zatrzymanie wiąże się z wydarzeniami prowadzącymi do aresztowania Rudego.
+- Rodzice Rudego – Zdzisław i Zofia Bytnarowie – wspierają syna i reprezentują wartości rodzinne, patriotyzm oraz przywiązanie do zasad moralnych.
+
+## 3. Trzy motywy literackie
+
+File:Pomnik małego powstańca w Warszawie.jpg - Wikimedia Commons
+
+### 1. Motyw patriotyzmu
+
+Bohaterowie kochają ojczyznę i walczą o jej wolność mimo zagrożenia życia. Angażują się w działalność konspiracyjną i Mały Sabotaż.
+
+Przykład: Alek zdejmuje niemiecką tablicę z pomnika Kopernika, pokazując sprzeciw wobec okupanta.
+
+Bohaterowie Akcji pod Arsenałem - Rajd Arsenał
+
+### 2. Motyw przyjaźni i poświęcenia
+
+Prawdziwa przyjaźń oznacza lojalność, wzajemną pomoc i gotowość do ryzykowania własnym życiem dla drugiego człowieka.
+
+Przykład: Akcja pod Arsenałem zostaje przeprowadzona, aby uwolnić Rudego z rąk Gestapo. Biorą w niej udział jego przyjaciele, w tym Zośka i Alek.
+
+"Kamienie na szaniec" Aleksandra Kamińskiego - prawdziwa opowieść o bohaterach czy mit, w który uwierzyliśmy?
+
+### 3. Motyw bohaterstwa i ofiary
+
+Młodzi ludzie podejmują niebezpieczne działania w imię wyższych wartości. Ich odwaga wiąże się z cierpieniem i utratą życia.
+
+Przykład: Rudy podczas tortur nie zdradza przyjaciół, a Alek i Zośka angażują się w walkę z okupantem, mimo że grozi im śmierć.
+
+## 4. Podsumowanie – co warto zapamiętać?
+
+| Bohater | Najważniejsze cechy | Przykład |
+| --- | --- | --- |
+| Alek – Maciej Aleksy Dawidowski | Odwaga, pomysłowość, pogoda ducha | Zdjęcie tablicy z pomnika Kopernika |
+| Rudy – Jan Bytnar | Wytrwałość, inteligencja, wierność | Nie wydaje przyjaciół podczas przesłuchań |
+| Zośka – Tadeusz Zawadzki | Odpowiedzialność, przywództwo, wrażliwość | Dowodzi akcją pod Arsenałem |
+
+Główne przesłanie lektury: „Kamienie na szaniec” pokazują, że patriotyzm, przyjaźń i odwaga mogą wymagać najwyższej ofiary. Tytuł nawiązuje do młodych ludzi, którzy niczym kamienie rzucane na szaniec poświęcają się w obronie ojczyzny.
 
 
 
 **Google Gemini:**
 
-[Tutaj wklej odpowiedź]
+A oto szczegółowe opracowanie głównych bohaterów lektury **„Kamienie na szaniec”** Aleksandra Kamińskiego wraz z przykładami wydarzeń oraz najważniejszymi motywami literackimi.
+
+---
+
+## Główni bohaterowie
+
+### 1. Jan Bytnar („Rudy”)
+
+* **Imię i nazwisko / Pseudonim:** Jan Bytnar, pseudonim „Rudy”.
+* **Cechy charakteru:**
+* **Inteligentny i twórczy:** Pomysłowy, niezwykle zdolny konstruktor i majsterkowicz (zbudował m.in. kajak i zainstalował blokadę drzwi w mieszkaniu).
+* **Refleksyjny i wrażliwy:** Dbał o rozwój duchowy, lubił rozmyślać i analizować świat.
+* **Odważny i wierny do końca:** Niezłomny w trakcie okrutnych przesłuchań na Szucha; mimo straszliwych tortur nie wydał nikogo ze swoich przyjaciół.
+
+
+* **Przykładowe wydarzenia:**
+* **Słynna akcja z kotwicą:** Namalował dużą Kotwicę Polski Walczącej na Pomniku Lotnika na placu Unii Lubelskiej – wyczyn niezwykle brawurowy ze względu na bliskość posterunku policji.
+* **Aresztowanie i Akcja pod Arsenałem:** Został aresztowany przez Gestapo, zmaltretowany i brutalnie przesłuchany. Odbity przez kolegów w Akcji pod Arsenałem, zmarł kilka dni później w wyniku odniesionych obrażeń.
+
+
+
+---
+
+### 2. Maciej Aleksy Dawidowski („Alek”)
+
+* **Imię i nazwisko / Pseudonim:** Maciej Aleksy Dawidowski, pseudonim „Alek” (używał też pseudonimu „Glizda”).
+* **Cechy charakteru:**
+* **Porywczy i energiczny:** Działał impulsywnie, cechował go wysoki wzrost i niespożyta energia.
+* **Opanowany w walce:** Mimo wysokiej wrażliwości potrafił zachować zimną krew w kluczowych momentach akcji.
+* **Ofiarny i szczery:** Bardzo wierzący, dążący do ciągłego doskonalenia własnego charakteru.
+
+
+* **Przykładowe wydarzenia:**
+* **Zdjęcie niemieckiej tablicy z pomnika Mikołaja Kopernika:** Alek samowolnie, pod nosem niemieckiej komendantury (Głównego Stoiska Policji), odkręcił zasłaniającą polski napis niemiecką tablicę.
+* **Uczestnictwo w Akcji pod Arsenałem:** Dowodził sekcją „Struktura” w czasie odbijania „Rudego”. Został ciężko ranny w brzuch podczas odwrotu, chroniąc kolegów, i zmarł tego samego dnia co Rudy.
+
+
+
+---
+
+### 3. Tadeusz Zawadzki („Zośka”)
+
+* **Imię i nazwisko / Pseudonim:** Tadeusz Zawadzki, pseudonim „Zośka” (pseudonim nadano mu ze względu na delikatną, chłopięcą, wręcz dziewczęcą urodę).
+* **Cechy charakteru:**
+* **Naturalny lider i strateg:** Posiadał niezwykłe zdolności przywódcze, potrafił świetnie planować i organizować najbardziej skomplikowane akcje dywersyjne.
+* **Wybitnie inteligentny i амbitny:** Wyznaczał wysokie standardy sobie i podwładnym.
+* **Głęboko przywiązany do przyjaciół:** Śmierć Rudego i Alka była dla niego wielkim cosem, po którym popadł w czasową depresję i zaczął pisać wspomnienia (które stały się podstawą książki).
+
+
+* **Przykładowe wydarzenia:**
+* **Zaplanowanie i przeprowadzenie Akcji pod Arsenałem:** Opracował szczegółowy plan odbicia Rudego i wziął w nim udział jako dowódca.
+* **Akcja pod Sieczychami:** Ostatnia akcja Zośki, mająca na celu likwidację posterunku żandarmerii niemieckiej na granicy. Akcja zakończyła się sukcesem, jednak Zośka ginie w niej jako jedyny z polskiego oddziału.
+
+
+
+---
+
+## 3 Najważniejsze motywy literackie
+
+1. **Motyw przyjaźni i braterstwa:**
+* Przyjaźń Alka, Rudego i Zośki oraz ich więź z harcerskim środowiskiem stanowi fundament utworu. Jest to relacja oparta na pełnym zaufaniu, lojalności i skrajnym poświęceniu (gotowość do oddania życia za drugiego człowieka, jak podczas Akcji pod Arsenałem).
+
+
+2. **Motyw heroizmu i patriotyzmu:**
+* Bohaterowie to młodzi ludzie, którzy musieli dojrzeć w cieniu wojny. Ich patriotyzm nie sprowadzał się do walki z bronią w ręku (Mały Sabotaż, Dywersja), ale również do walki o zachowanie polskości, własnego morale i godności.
+
+
+3. **Motyw dojrzewania w czasie wojny:**
+* Młodzieńcze marzenia, plany na przyszłość, pierwsze miłości i beztroska zostają zderzone z brutalną rzeczywistością okupacji. Chłopcy przechodzą szybką ewolucję – od harcerskich wybryków po dojrzałe decyzje o życiu i śmierci.
+
+
+
+---
+
+Czy chciałbyś omówić wybraną postać lub akcję bardziej szczegółowo?
 
 
 
@@ -170,11 +348,155 @@ Wyjaśnij, jak działa recykling odpadów w Polsce. Podaj pięć informacji o se
 
 **ChatGPT:**
 
-[Tutaj wklej odpowiedź i linki]
+# Jak działa recykling odpadów w Polsce?
+
+Recykling to proces przetwarzania zużytych materiałów w surowce lub nowe produkty. W Polsce ważną rolę odgrywają mieszkańcy, firmy odbierające odpady, zakłady przetwarzania oraz gminy. Podstawowe zasady segregacji określa Jednolity System Segregacji Odpadów.
+
+Portal Gov.pl
+
++1
+
+## Pięć najważniejszych informacji o segregacji i roli gmin
+
+### 1. Odpady segreguje się na pięć podstawowych frakcji
+
+Niebieski – papier
+
+Gazety, zeszyty, kartony i papierowe opakowania. Nie wrzucamy tu papieru zatłuszczonego lub mocno zabrudzonego.
+
+Żółty – metale i tworzywa sztuczne
+
+Plastikowe butelki, puszki, metalowe opakowania i kartony po napojach.
+
+Zielony – szkło
+
+Szklane butelki i słoiki. W niektórych gminach szkło bezbarwne i kolorowe zbiera się osobno.
+
+Brązowy – bioodpady
+
+Resztki roślinne, obierki warzyw i owoców oraz odpady z pielęgnacji ogrodu, zgodnie z lokalnymi zasadami.
+
+Czarny lub szary – odpady zmieszane
+
+Pozostałe odpady, których nie można umieścić w innych frakcjach. Nie powinny tu trafiać odpady niebezpieczne.
+
+Źródło: Ministerstwo Klimatu i Środowiska – [zasady segregacji odpadów](<https://www.gov.pl/web/klimat/segregacjaodpadow?utm_source=chatgpt.com>). Kolory i szczegółowe zasady warto sprawdzić w swojej gminie.
+
+Portal Gov.pl
+
++1
+
+### 2. Segregacja umożliwia odzyskiwanie surowców
+
+Po odebraniu odpady trafiają do odpowiednich instalacji, gdzie mogą być dodatkowo sortowane i przygotowywane do przetworzenia. Z papieru produkuje się m.in. papier z recyklingu, ze szkła – nowe opakowania, a z części tworzyw sztucznych – nowe wyroby.
+
+Nie wszystkie odpady nadają się do recyklingu. Zanieczyszczenia i pomieszanie materiałów mogą utrudniać ich przetwarzanie. Dlatego ważne jest prawidłowe segregowanie już w domu.
+
+Portal Gov.pl
+
++1
+
+### 3. Gminy organizują system odbioru odpadów
+
+Do obowiązków gmin należy organizowanie lokalnego systemu gospodarowania odpadami komunalnymi. W praktyce obejmuje to m.in. ustalanie zasad odbioru, organizację odbierania odpadów oraz informowanie mieszkańców, jak je segregować.
+
+Gminy określają też lokalne rozwiązania dotyczące opłat i harmonogramów odbioru, zgodnie z obowiązującymi przepisami.
+
+ISAP
+
++1
+
+### 4. Gminy prowadzą Punkty Selektywnego Zbierania Odpadów Komunalnych (PSZOK)
+
+PSZOK-i pozwalają mieszkańcom oddawać odpady, których nie należy wyrzucać do zwykłych pojemników, np.:
+
+- zużyty sprzęt elektroniczny i elektryczny,
+- odpady wielkogabarytowe, np. stare meble,
+- farby i inne odpady problemowe, zgodnie z zasadami danego punktu,
+- zużytą odzież i tekstylia.
+
+Od 2025 roku gminy muszą zapewniać możliwość selektywnego zbierania tekstyliów. Szczegółowe zasady i lokalizację punktów można znaleźć na stronie urzędu gminy.
+
+Portal Gov.pl
+
++1
+
+### 5. Gminy kontrolują system, a mieszkańcy mają obowiązek segregacji
+
+Gminy organizują gospodarowanie odpadami i monitorują działanie systemu. Mieszkańcy natomiast powinni przestrzegać zasad selektywnego zbierania odpadów. W przypadku niewłaściwej segregacji mogą zostać zastosowane podwyższone opłaty, na zasadach określonych w ustawie.
+
+Dodatkowo od 1 października 2025 roku działa w Polsce system kaucyjny dla wybranych opakowań po napojach. Oznaczone opakowania można zwracać w punktach zbiórki, aby odzyskać kaucję.
+
+ISAP
+
++1
+
+## Jak przebiega recykling? W skrócie
+
+1. Segregacja w domu
+
+Mieszkaniec umieszcza odpady we właściwych pojemnikach.
+
+2. Odbiór i transport
+
+Firma odbiera odpady zgodnie z harmonogramem.
+
+3. Sortowanie i przetwarzanie
+
+Odpady są rozdzielane i przygotowywane do odzysku surowców.
+
+4. Powstawanie nowych produktów
+
+Odzyskane materiały mogą posłużyć do produkcji nowych przedmiotów.
+
+## Wiarygodne źródła i linki
+
+1. [Ministerstwo Klimatu i Środowiska – segregacja odpadów](<https://www.gov.pl/web/klimat/segregacjaodpadow?utm_source=chatgpt.com>) – zasady segregacji, PSZOK-i i tekstylia.
+2. [Ministerstwo Klimatu i Środowiska – Jednolity System Segregacji Odpadów](<https://www.gov.pl/web/klimat/segregacjaodpadow-system?utm_source=chatgpt.com>) – kolory pojemników i podstawowe frakcje.
+3. [Internetowy System Aktów Prawnych – ustawa o utrzymaniu czystości i porządku w gminach](<https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20250000733&utm_source=chatgpt.com>) – podstawa prawna obowiązków gmin i mieszkańców.
+4. [Ministerstwo Klimatu i Środowiska – pytania i odpowiedzi dotyczące segregacji](<https://www.gov.pl/web/edukacja-ekologiczna/pytania-i-odpowiedzi?utm_source=chatgpt.com>) – praktyczne wskazówki dotyczące sortowania odpadów.
+
+Podsumowanie: skuteczny recykling w Polsce zależy od prawidłowej segregacji przez mieszkańców, sprawnego odbioru i przetwarzania odpadów oraz dobrej organizacji systemu przez gminy. Dzięki temu można ograniczyć ilość śmieci trafiających na składowiska i oszczędzać surowce naturalne.
 
 **Google Gemini:**
 
-[Tutaj wklej odpowiedź i linki]
+Recykling w Polsce opiera się na **Jednolitym Systemie Segregacji Odpadów (JSSO)** oraz zasadzie tzw. **Rowerowej/Hierarchii Sposobów Postępowania z Odpadami**, w której priorytetem jest zapobieganie powstawaniu śmieci, a w drugiej kolejności ich odzysk i przetwórstwo.
+
+Cały proces w praktyce polega na podzieleniu śmieci w gospodarstwach domowych, ich odbiorze, transportowaniu do sortowni oraz instalacji przetwarzania (gdzie trafiają do odzysku surowcowego lub recyklingu), a na końcu unieszkodliwieniu pozostałości, których nie da się przetworzyć.
+
+---
+
+## 5 kluczowych informacji o segregacji i roli gmin
+
+1. **Jednolity System Segregacji Odpadów (JSSO):**
+W całej Polsce obowiązuje podział na 5 podstawowych frakcji (kolorów pojemników):
+* **Niebieski:** Papier
+* **Żółty:** Metale i tworzywa sztuczne (oraz opakowania wielomateriałowe)
+* **Zielony:** Szkło (opakowaniowe)
+* **Brązowy:** Bioodpady (pochodzenia roślinnego)
+* **Czarny/Szary:** Odpady zmieszane (to, czego nie da się wysegregować, z wyłączeniem odpadów niebezpiecznych).
+
+
+2. **Obowiązkowe Punkty Selektywnego Zbierania (PSZOK):**
+Każda gmina w Polsce ma prawny obowiązek utworzenia i utrzymywania co najmniej jednego **PSZOK-u**. Jest to miejsce, do którego mieszkańcy mogą bezpłatnie oddać odpady problematyczne i niebezpieczne, takie jak: meble, gabaryty, sprzęt RTV/AGD, przeterminowane leki, chemikalia czy zużyte opony.
+3. **Gmina jako organizator i zarządca systemu:**
+Zgodnie z ustawą o utrzymaniu czystości i porządku w gminach, gospodarowanie odpadami komunalnymi należy do zadań własnych samorządu. Gminy wybierają w przetargach firmy wywozowe, ustalają tzw. „opłatę śmieciową”, pobierają deklaracje od mieszkańców oraz kontrolują prawidłowość wywozu i przetwarzania śmieci.
+4. **Wymagane poziomy recyklingu i kary:**
+Unia Europejska i polskie prawo nakładają na gminy obowiązek osiągania z roku na rok coraz wyższych poziomów przygotowania odpadów do ponownego użycia i recyklingu (np. do 2025 r. poziom ten wynosi min. 55%). Jeśli gmina nie osiągnie wyznaczonych progów, grożą jej wysokie kary finansowe.
+5. **Różnicowanie opłat i powszechność segregacji:**
+Segregacja odpadów jest w Polsce obowiązkowa dla wszystkich mieszkańców. Osoby lub wspólnoty, które nie wywiązują się z tego obowiązku i wyrzucają surowce do odpadów zmieszanych, muszą liczyć się z podwyższoną opłatą za wywóz śmieci (tzw. opłatą karną), ustalaną przez radę gminy.
+
+---
+
+## Wiarygodne źródła wiedzy
+
+Więcej oficjalnych informacji i wytycznych znajdziesz na stronach rządowych:
+
+* 🌿 [Portal Gov.pl – Zasady segregacji odpadów (JSSO)](https://www.gov.pl/web/klimat/segregacjaodpadow) – oficjalne zestawienie Ministerstwa Klimatu i Środowiska dotyczące prawidłowego podziału śmieci.
+* 📜 [Portal Gov.pl – Jednolity System Segregacji Odpadów](https://www.gov.pl/web/klimat/poznaj-jednolity-system-segregacji-odpadow) – szczegółowe informacje o podstawach prawnych i standardach pojemników.
+* 🏛️ [LEX / Ustawa o utrzymaniu czystości i porządku w gminach](https://sip.lex.pl/akty-prawne/dzu-dziennik-ustaw/utrzymanie-czystosci-i-porzadku-w-gminach-16797931/roz-2) – treść ustawy określającej bezpośrednie zadania i obowiązki gmin w zakresie gospodarki odpadami.
+
+Czy chciałbyś dowiedzieć się więcej o konkretnym pojemniku, działaniu PSZOK-u w Twojej okolicy lub o systemie kaucyjnym?
 
 
 
@@ -222,19 +544,19 @@ Wygeneruj realistyczną ilustrację biblioteki przyszłości w 2050 roku. Dodaj 
 
 **ChatGPT:**
 
-[Tutaj wstaw obraz]
+[chatgpt.png](chatgpt.png)
 
 
 
 **Google Gemini:**
 
-[Tutaj wstaw obraz]
+[gemini.png](gemini.png)
 
 
 
 **Devin:**
 
-[Tutaj wstaw obraz]
+[devin.png](devin.png)
 
 ---
 
