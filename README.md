@@ -570,13 +570,583 @@ Utwórz dokument HTML do wydruku na jednej stronie A4 pod tytułem „Potwierdze
 
 **ChatGPT:**
 
-[Tutaj wklej kod HTML]
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Potwierdzenie przyjęcia dokumentu</title>
+  <style>
+    :root {
+      --ink: #172033;
+      --muted: #5b6474;
+      --line: #9aa3b2;
+      --light: #e8edf3;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #eef1f5;
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10.5pt;
+      line-height: 1.35;
+    }
+
+    .sheet {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 12mm auto;
+      padding: 15mm 17mm 14mm;
+      background: #fff;
+      box-shadow: 0 2mm 8mm rgba(20, 30, 50, .12);
+    }
+
+    .institution {
+      display: grid;
+      grid-template-columns: 1fr 55mm;
+      gap: 8mm;
+      padding-bottom: 7mm;
+      border-bottom: 1.5px solid var(--ink);
+    }
+
+    .institution h2 {
+      margin: 0 0 2mm;
+      font-size: 11pt;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+
+    .institution p {
+      margin: 1mm 0;
+      color: var(--muted);
+    }
+
+    .logo-placeholder {
+      min-height: 23mm;
+      border: 1px dashed var(--line);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 3mm;
+      color: var(--muted);
+      text-align: center;
+      font-size: 9pt;
+    }
+
+    h1 {
+      margin: 9mm 0 2mm;
+      text-align: center;
+      font-size: 19pt;
+      line-height: 1.2;
+      letter-spacing: .015em;
+    }
+
+    .subtitle {
+      margin: 0 0 8mm;
+      text-align: center;
+      color: var(--muted);
+      font-size: 9.5pt;
+    }
+
+    .section-title {
+      margin: 6mm 0 3mm;
+      padding-bottom: 1.5mm;
+      border-bottom: 1px solid var(--light);
+      font-size: 10pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .045em;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5mm 8mm;
+    }
+
+    .field { min-width: 0; }
+
+    .field.full { grid-column: 1 / -1; }
+
+    .label {
+      display: block;
+      margin-bottom: 1.5mm;
+      color: var(--muted);
+      font-size: 9pt;
+    }
+
+    .write-line {
+      min-height: 7mm;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .write-box {
+      min-height: 22mm;
+      border: 1px solid var(--line);
+      border-radius: 1mm;
+    }
+
+    .declaration {
+      margin: 7mm 0 0;
+      padding: 4mm 4.5mm;
+      border-left: 3px solid var(--ink);
+      background: #f6f8fa;
+      font-size: 9.5pt;
+    }
+
+    .signatures {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18mm;
+      margin-top: 15mm;
+    }
+
+    .signature-space {
+      height: 17mm;
+      border-bottom: 1px solid var(--ink);
+    }
+
+    .signature-label {
+      margin-top: 2mm;
+      text-align: center;
+      font-size: 9pt;
+      color: var(--muted);
+    }
+
+    .footer {
+      margin-top: 9mm;
+      padding-top: 3mm;
+      border-top: 1px solid var(--light);
+      display: flex;
+      justify-content: space-between;
+      gap: 8mm;
+      color: var(--muted);
+      font-size: 8pt;
+    }
+
+    @page {
+      size: A4 portrait;
+      margin: 0;
+    }
+
+    @media print {
+      html, body {
+        width: 210mm;
+        height: 297mm;
+        margin: 0;
+        padding: 0;
+        background: #fff;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+      }
+
+      .sheet {
+        width: 210mm;
+        height: 297mm;
+        min-height: 0;
+        margin: 0;
+        padding: 14mm 16mm 12mm;
+        box-shadow: none;
+        overflow: hidden;
+      }
+
+      .no-print { display: none !important; }
+    }
+
+    @media screen and (max-width: 700px) {
+      .sheet {
+        width: 100%;
+        min-height: 0;
+        margin: 0;
+        padding: 24px;
+      }
+      .institution { grid-template-columns: 1fr; }
+      .grid { grid-template-columns: 1fr; }
+      .field.full { grid-column: auto; }
+      .signatures { gap: 10mm; }
+    }
+  </style>
+</head>
+<body>
+  <main class="sheet">
+    <header class="institution">
+      <div>
+        <h2>Nazwa instytucji</h2>
+        <p>Pełna nazwa jednostki / urzędu</p>
+        <p>Ulica i numer, kod pocztowy, miejscowość</p>
+        <p>Telefon / e-mail (opcjonalnie)</p>
+      </div>
+      <div class="logo-placeholder">Miejsce na logo<br>lub pieczęć instytucji</div>
+    </header>
+
+    <h1>Potwierdzenie przyjęcia dokumentu</h1>
+    <p class="subtitle">Potwierdzenie odbioru dokumentu i ewentualnych załączników</p>
+
+    <div class="section-title">Dane przyjęcia</div>
+    <section class="grid">
+      <div class="field">
+        <span class="label">Data przyjęcia</span>
+        <div class="write-line"></div>
+      </div>
+      <div class="field">
+        <span class="label">Numer sprawy / znak sprawy</span>
+        <div class="write-line"></div>
+      </div>
+    </section>
+
+    <div class="section-title">Osoba przekazująca dokument</div>
+    <section class="grid">
+      <div class="field full">
+        <span class="label">Imię i nazwisko / nazwa podmiotu</span>
+        <div class="write-line"></div>
+      </div>
+      <div class="field full">
+        <span class="label">Adres (opcjonalnie)</span>
+        <div class="write-line"></div>
+      </div>
+    </section>
+
+    <div class="section-title">Przyjęty dokument</div>
+    <section class="grid">
+      <div class="field full">
+        <span class="label">Nazwa / tytuł dokumentu</span>
+        <div class="write-line"></div>
+      </div>
+      <div class="field">
+        <span class="label">Liczba załączników</span>
+        <div class="write-line"></div>
+      </div>
+      <div class="field">
+        <span class="label">Liczba stron dokumentu (opcjonalnie)</span>
+        <div class="write-line"></div>
+      </div>
+    </section>
+
+    <div class="section-title">Uwagi</div>
+    <div class="write-box" aria-label="Miejsce na uwagi"></div>
+
+    <p class="declaration">
+      Potwierdza się przyjęcie wskazanego powyżej dokumentu wraz z liczbą załączników
+      wpisaną w niniejszym formularzu. Potwierdzenie dotyczy odbioru dokumentu i nie
+      stanowi oceny jego treści ani kompletności merytorycznej.
+    </p>
+
+    <section class="signatures">
+      <div>
+        <div class="signature-space"></div>
+        <div class="signature-label">Podpis osoby przekazującej</div>
+      </div>
+      <div>
+        <div class="signature-space"></div>
+        <div class="signature-label">Podpis osoby przyjmującej / pieczęć</div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>Egzemplarz dla osoby przekazującej / do dokumentacji</span>
+      <span>Formularz potwierdzenia odbioru</span>
+    </footer>
+  </main>
+</body>
+</html>
 
 
 
 **Google Gemini:**
 
-[Tutaj wklej kod HTML]
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potwierdzenie przyjęcia dokumentu</title>
+    <style>
+        /* Style ogólne i podglądu */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* Strona A4 */
+        .page {
+            width: 210mm;
+            height: 297mm;
+            background-color: #fff;
+            padding: 20mm;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Nagłówek */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+
+        .institution-details {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .institution-name {
+            font-weight: bold;
+            font-size: 16px;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .date-location {
+            text-align: right;
+            font-size: 14px;
+        }
+
+        /* Tytuł */
+        .title {
+            text-align: center;
+            margin: 20px 0 30px 0;
+        }
+
+        .title h1 {
+            font-size: 22px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #2c3e50;
+        }
+
+        .case-number {
+            font-size: 14px;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        /* Sekcje formularza */
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 14px;
+            font-weight: bold;
+            color: #2c3e50;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 4px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .field {
+            margin-bottom: 12px;
+        }
+
+        .field label {
+            display: block;
+            font-size: 12px;
+            color: #555;
+            margin-bottom: 4px;
+            font-weight: bold;
+        }
+
+        .field-value {
+            font-size: 14px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            min-height: 36px;
+            background-color: #fafafa;
+        }
+
+        .notes-box {
+            min-height: 100px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 10px;
+            font-size: 14px;
+            background-color: #fafafa;
+        }
+
+        /* Sekcja podpisów */
+        .signatures {
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .signature-box {
+            width: 45%;
+            text-align: center;
+        }
+
+        .signature-line {
+            border-top: 1px dashed #333;
+            margin-top: 60px;
+            padding-top: 5px;
+            font-size: 12px;
+            color: #555;
+        }
+
+        /* Przycisk drukowania (ukryty podczas druku) */
+        .print-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #2c3e50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .print-btn:hover {
+            background-color: #34495e;
+        }
+
+        /* Style do druku */
+        @media print {
+            body {
+                background-color: #fff;
+                padding: 0;
+            }
+
+            .page {
+                box-shadow: none;
+                width: 100%;
+                height: 100vh;
+                padding: 0;
+            }
+
+            .print-btn {
+                display: none;
+            }
+
+            .field-value, .notes-box {
+                background-color: #fff;
+            }
+
+            @page {
+                size: A4;
+                margin: 20mm;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <button class="print-btn" onclick="window.print()">Drukuj dokument</button>
+
+    <div class="page">
+        <div>
+            <!-- Nagłówek -->
+            <div class="header">
+                <div class="institution-details">
+                    <div class="institution-name">Urząd Miejski / Instytucja</div>
+                    <div>ul. Przykładowa 123</div>
+                    <div>00-001 Warszawa</div>
+                    <div>Tel.: (22) 123 45 67</div>
+                </div>
+                <div class="date-location">
+                    Miejscowość: Warszawa<br>
+                    Data: 26.10.2026 r.
+                </div>
+            </div>
+
+            <!-- Tytuł dokumentu -->
+            <div class="title">
+                <h1>Potwierdzenie Przyjęcia Dokumentu</h1>
+                <div class="case-number">Numer sprawy: <strong>UM/2026/01027/K</strong></div>
+            </div>
+
+            <!-- Dane osoby przekazującej -->
+            <div class="section">
+                <div class="section-title">Dane osoby przekazującej</div>
+                <div class="grid-2">
+                    <div class="field">
+                        <label>Imię i Nazwisko / Nazwa firmy:</label>
+                        <div class="field-value">Jan Kowalski</div>
+                    </div>
+                    <div class="field">
+                        <label>PESEL / NIP:</label>
+                        <div class="field-value">84011212345</div>
+                    </div>
+                </div>
+                <div class="field">
+                    <label>Adres zamieszkania / Siedziby:</label>
+                    <div class="field-value">ul. Słoneczna 15/4, 00-001 Warszawa</div>
+                </div>
+            </div>
+
+            <!-- Szczegóły dokumentu -->
+            <div class="section">
+                <div class="section-title">Informacje o przyjętym dokumencie</div>
+                <div class="field">
+                    <label>Nazwa / Tytuł dokumentu:</label>
+                    <div class="field-value">Wniosek o wydanie pozwolenia na budowę</div>
+                </div>
+                <div class="grid-2">
+                    <div class="field">
+                        <label>Liczba załączników:</label>
+                        <div class="field-value">4</div>
+                    </div>
+                    <div class="field">
+                        <label>Forma przekazania:</label>
+                        <div class="field-value">Osobiście / Papierowa</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Uwagi -->
+            <div class="section">
+                <div class="section-title">Uwagi / Dodatkowe informacje</div>
+                <div class="notes-box">
+                    Dokumenty przyjęte w oryginale. Załącznik nr 3 zawiera projekt budowlany w 3 egzemplarzach. Opłata skarbowa uiszczona.
+                </div>
+            </div>
+        </div>
+
+        <!-- Podpisy -->
+        <div class="signatures">
+            <div class="signature-box">
+                <div class="signature-line">
+                    Podpis osoby przekazującej
+                </div>
+            </div>
+            <div class="signature-box">
+                <div class="signature-line">
+                    Pieczęć i podpis osoby przyjmującej
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
 
 
 
